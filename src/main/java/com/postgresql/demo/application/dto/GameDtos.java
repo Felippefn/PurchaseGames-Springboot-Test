@@ -14,7 +14,7 @@ public class GameDtos {
         @Size(max=1000) public String description;
         public String image;
         @NotBlank public String category;
-        @PositiveOrZero private BigDecimal price;
+        @PositiveOrZero public BigDecimal price;
     }
 
     // UPDATE
